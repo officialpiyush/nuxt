@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare && husky install"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.35.3",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "eslint": "^8.35.0",

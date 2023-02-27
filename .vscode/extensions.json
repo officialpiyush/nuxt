@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "dbaeumer.vscode-eslint",
-        "rvest.vs-code-prettier-eslint"
+        "rvest.vs-code-prettier-eslint",
+        "vue.volar",
+        "antfu.goto-alias"
     ]
 }

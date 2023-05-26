@@ -13,6 +13,9 @@ devDependencies:
   '@unocss/nuxt':
     specifier: ^0.52.3
     version: 0.52.3(postcss@8.4.21)(vite@4.1.4)(webpack@5.84.1)
+  '@unocss/reset':
+    specifier: ^0.52.3
+    version: 0.52.3
   '@vueuse/nuxt':
     specifier: ^10.0.0
     version: 10.0.0(nuxt@3.2.2)(vue@3.2.47)

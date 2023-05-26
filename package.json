@@ -13,6 +13,7 @@
     "@antfu/eslint-config": "^0.39.0",
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@unocss/eslint-config": "^0.52.3",
     "@unocss/nuxt": "^0.52.3",
     "@unocss/reset": "^0.52.3",
     "@vueuse/nuxt": "^10.0.0",

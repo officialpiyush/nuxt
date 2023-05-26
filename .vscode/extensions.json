@@ -3,6 +3,8 @@
     "dbaeumer.vscode-eslint",
     "rvest.vs-code-prettier-eslint",
     "vue.volar",
-    "antfu.goto-alias"
+    "antfu.goto-alias",
+    "streetsidesoftware.code-spell-checker",
+    "antfu.unocss"
   ]
 }

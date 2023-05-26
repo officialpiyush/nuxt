@@ -5,6 +5,7 @@
     "vue.volar",
     "antfu.goto-alias",
     "streetsidesoftware.code-spell-checker",
-    "antfu.unocss"
+    "antfu.unocss",
+    "sdras.vue-vscode-snippets"
   ]
 }

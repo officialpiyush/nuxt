@@ -14,7 +14,7 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@unocss/eslint-config": "^0.52.7",
-    "@unocss/nuxt": "^0.52.7",
+    "@unocss/nuxt": "^0.53.0",
     "@unocss/reset": "^0.53.0",
     "@vueuse/nuxt": "^10.1.2",
     "eslint": "^8.41.0",

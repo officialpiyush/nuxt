@@ -20,9 +20,18 @@ export default defineConfig({
     presetTypography(),
     presetWebFonts({
       fonts: {
-        sans: 'Inter',
-        serif: 'Open Sans',
-        mono: 'JetBrains Mono',
+        sans: {
+          name: 'Inter',
+          weights: new Array(9).fill(0).map((_, i) => i * 100 + 100),
+        },
+        serif: {
+          name: 'Open Sans',
+          weights: new Array(9).fill(0).map((_, i) => i * 100 + 100),
+        },
+        mono: {
+          name: 'JetBrains Mono',
+          weights: new Array(9).fill(0).map((_, i) => i * 100 + 100),
+        },
       },
     }),
   ],

@@ -2,4 +2,12 @@
 export default defineNuxtConfig({
   modules: ['@vueuse/nuxt', '@unocss/nuxt'],
   css: ['@unocss/reset/tailwind.css'],
+  imports: {
+    imports: [
+      {
+        name: 'nanoid',
+        from: 'nanoid',
+      },
+    ],
+  },
 })

@@ -1,9 +1,8 @@
 <script lang="ts" setup>
-import '@unocss/reset/tailwind.css'
 </script>
 
 <template>
-  <div class="h-screen bg-zinc-900 flex items-center justify-center text-white font-mono">
+  <div class="h-screen flex items-center justify-center bg-zinc-900 font-mono text-white">
     Hello, Pizza!
   </div>
 </template>

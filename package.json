@@ -25,5 +25,8 @@
   },
   "volta": {
     "node": "18.16.0"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.2"
   }
 }

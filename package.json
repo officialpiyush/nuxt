@@ -27,6 +27,7 @@
     "node": "18.16.1"
   },
   "dependencies": {
+    "dayjs": "^1.11.8",
     "nanoid": "^4.0.2"
   }
 }

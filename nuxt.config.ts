@@ -22,7 +22,8 @@ export default defineNuxtConfig({
   modules: ['@vueuse/nuxt', '@unocss/nuxt'],
   css: [
     '@unocss/reset/tailwind.css',
-    'vue-toast-notification/dist/theme-sugar.css',
+    'notivue/notifications.css',
+    'notivue/animations.css',
   ],
   imports: {
     imports: [

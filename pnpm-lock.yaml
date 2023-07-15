@@ -14,6 +14,9 @@ dependencies:
   nanoid:
     specifier: ^4.0.2
     version: 4.0.2
+  notivue:
+    specifier: ^1.0.5
+    version: 1.0.5
 
 devDependencies:
   '@antfu/eslint-config':
@@ -6643,6 +6646,11 @@ packages:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /notivue@1.0.5:
+    resolution: {integrity: sha512-z2S32v6pe/x9r+KjVKErLa6efaWn4zMXLDBSCRoPwdXyEz5KxEm1QCfSj1sD9tGyaMRuK9KHl3NAxz4JyXEO+Q==}
+    requiresBuild: true
+    dev: false
 
   /npm-bundled@3.0.0:
     resolution: {integrity: sha512-Vq0eyEQy+elFpzsKjMss9kxqb9tG3YHg4dsyWuUENuzvSUWe1TCnW/vV9FkhvBk/brEDoDiVd+M1Btosa6ImdQ==}

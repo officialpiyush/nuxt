@@ -30,6 +30,7 @@
   "dependencies": {
     "consola": "^3.2.3",
     "dayjs": "^1.11.9",
-    "nanoid": "^4.0.2"
+    "nanoid": "^4.0.2",
+    "notivue": "^1.0.5"
   }
 }

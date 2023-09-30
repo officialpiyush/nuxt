@@ -24,7 +24,8 @@
     "nuxt": "^3.7.4",
     "prettier": "^3.0.3",
     "prisma": "^5.3.1",
-    "prisma-kysely": "^1.7.1"
+    "prisma-kysely": "^1.7.1",
+    "vercel": "^32.3.1"
   },
   "volta": {
     "node": "18.17.1"

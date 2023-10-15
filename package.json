@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && husky install"
   },
+  "type": "module",
   "devDependencies": {
     "@antfu/eslint-config": "1.0.0-beta.17",
     "@commitlint/cli": "^17.7.2",

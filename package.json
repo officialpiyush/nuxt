@@ -9,23 +9,24 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && husky install"
   },
+  "type": "module",
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.17",
-    "@commitlint/cli": "^17.7.2",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@nuxt/devtools": "1.0.0-beta.0",
-    "@unocss/eslint-config": "^0.56.4",
+    "@antfu/eslint-config": "1.0.0-beta.27",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
+    "@nuxt/devtools": "1.0.0",
+    "@unocss/eslint-config": "^0.56.5",
     "@unocss/nuxt": "^0.56.5",
     "@unocss/reset": "^0.56.5",
-    "@vueuse/nuxt": "^10.4.1",
-    "eslint": "^8.50.0",
+    "@vueuse/nuxt": "^10.5.0",
+    "eslint": "^8.51.0",
     "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
-    "nuxt": "^3.7.4",
+    "lint-staged": "^15.0.2",
+    "nuxt": "^3.8.0",
     "prettier": "^3.0.3",
-    "prisma": "^5.3.1",
+    "prisma": "^5.4.2",
     "prisma-kysely": "^1.7.1",
-    "vercel": "^32.4.0"
+    "vercel": "^32.4.1"
   },
   "volta": {
     "node": "18.18.2"
@@ -34,7 +35,7 @@
     "consola": "^3.2.3",
     "dayjs": "^1.11.10",
     "kysely": "^0.26.3",
-    "nanoid": "^5.0.0",
-    "notivue": "^1.4.0"
+    "nanoid": "^5.0.2",
+    "notivue": "^1.4.2"
   }
 }

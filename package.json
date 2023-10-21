@@ -15,7 +15,6 @@
     "@trpc/server": "^10.41.0",
     "consola": "^3.2.3",
     "dayjs": "^1.11.10",
-    "kysely": "^0.26.3",
     "nanoid": "^5.0.2",
     "notivue": "^1.4.2",
     "std-env": "^3.4.3",
@@ -38,7 +37,6 @@
     "nuxt": "^3.8.0",
     "prettier": "^3.0.3",
     "prisma": "^5.4.2",
-    "prisma-kysely": "^1.7.1",
     "vercel": "^32.4.1"
   },
   "volta": {

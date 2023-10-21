@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['trpc-nuxt'],
   },
-  modules: ['@vueuse/nuxt', '@unocss/nuxt'],
+  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@sidebase/nuxt-auth'],
   css: [
     '@unocss/reset/tailwind.css',
     'notivue/notifications.css',

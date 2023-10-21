@@ -18,7 +18,9 @@ export default defineNuxtConfig({
       ],
     },
   },
-
+  build: {
+    transpile: ['trpc-nuxt'],
+  },
   modules: ['@vueuse/nuxt', '@unocss/nuxt'],
   css: [
     '@unocss/reset/tailwind.css',

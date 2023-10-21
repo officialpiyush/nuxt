@@ -36,5 +36,8 @@
     "json",
     "jsonc",
     "yaml"
-  ]
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  }
 }

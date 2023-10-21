@@ -1,3 +1,5 @@
+import { env } from 'std-env'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -18,8 +20,10 @@ export default defineNuxtConfig({
       ],
     },
   },
-
-  modules: ['@vueuse/nuxt', '@unocss/nuxt'],
+  build: {
+    transpile: ['trpc-nuxt'],
+  },
+  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@sidebase/nuxt-auth'],
   css: [
     '@unocss/reset/tailwind.css',
     'notivue/notifications.css',
@@ -36,5 +40,12 @@ export default defineNuxtConfig({
         from: 'consola',
       },
     ],
+  },
+  runtimeConfig: {
+    auth: {
+      SECRET: env.AUTH_SECRET as string,
+      DISCORD_CLIENT_ID: env.DISCORD_CLIENT_ID as string,
+      DISCORD_CLIENT_SECRET: env.DISCORD_CLIENT_SECRET as string,
+    },
   },
 })

@@ -18,7 +18,7 @@
     "consola": "^3.2.3",
     "dayjs": "^1.11.10",
     "nanoid": "^5.0.2",
-    "next-auth": "4.21.1",
+    "next-auth": "4.24.5",
     "notivue": "^1.4.2",
     "std-env": "^3.4.3",
     "trpc-nuxt": "^0.10.12",

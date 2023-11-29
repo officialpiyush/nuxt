@@ -39,5 +39,6 @@
   ],
   "[jsonc]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-  }
+  },
+  "nuxt.isNuxtApp": true
 }

@@ -23,11 +23,12 @@ export default defineNuxtConfig({
   build: {
     transpile: ['trpc-nuxt'],
   },
-  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@sidebase/nuxt-auth', 'md-editor-v3/lib/style.css'],
+  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@sidebase/nuxt-auth'],
   css: [
     '@unocss/reset/tailwind.css',
     'notivue/notifications.css',
     'notivue/animations.css',
+    'md-editor-v3/lib/style.css',
   ],
   imports: {
     imports: [

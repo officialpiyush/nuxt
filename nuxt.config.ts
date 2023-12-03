@@ -42,6 +42,9 @@ export default defineNuxtConfig({
       },
     ],
   },
+  auth: {
+    isEnabled: false,
+  },
   runtimeConfig: {
     auth: {
       SECRET: env.AUTH_SECRET as string,

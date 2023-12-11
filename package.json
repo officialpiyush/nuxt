@@ -30,7 +30,7 @@
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
     "@nuxt/devtools": "1.0.4",
-    "@sidebase/nuxt-auth": "0.6.2",
+    "@sidebase/nuxt-auth": "0.6.3",
     "@unocss/eslint-config": "^0.57.7",
     "@unocss/nuxt": "^0.57.7",
     "@unocss/reset": "^0.57.7",

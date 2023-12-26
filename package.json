@@ -20,7 +20,7 @@
     "md-editor-v3": "^4.8.3",
     "nanoid": "^5.0.3",
     "next-auth": "4.21.1",
-    "notivue": "^1.4.4",
+    "notivue": "^2.0.0",
     "std-env": "^3.5.0",
     "trpc-nuxt": "^0.10.12",
     "zod": "^3.22.4"

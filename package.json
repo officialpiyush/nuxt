@@ -18,23 +18,23 @@
     "@trpc/server": "^10.45.0",
     "consola": "^3.2.3",
     "dayjs": "^1.11.10",
-    "md-editor-v3": "^4.9.0",
+    "md-editor-v3": "^4.10.0",
     "nanoid": "^5.0.4",
     "next-auth": "4.21.1",
-    "notivue": "^2.0.1",
+    "notivue": "^2.1.1",
     "std-env": "^3.7.0",
     "trpc-nuxt": "^0.10.15",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.6.1",
-    "@commitlint/cli": "^18.4.3",
-    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@nuxt/devtools": "1.0.6",
     "@sidebase/nuxt-auth": "0.6.3",
-    "@unocss/eslint-config": "^0.58.2",
-    "@unocss/nuxt": "^0.58.2",
-    "@unocss/reset": "^0.58.2",
+    "@unocss/eslint-config": "^0.58.3",
+    "@unocss/nuxt": "^0.58.3",
+    "@unocss/reset": "^0.58.3",
     "@vueuse/nuxt": "^10.7.1",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
@@ -42,7 +42,7 @@
     "nuxt": "^3.9.0",
     "prettier": "^3.1.1",
     "prisma": "^5.7.1",
-    "vercel": "^33.0.1"
+    "vercel": "^33.0.2"
   },
   "volta": {
     "node": "20.10.0"

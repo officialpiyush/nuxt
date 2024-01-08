@@ -62,8 +62,8 @@ devDependencies:
     specifier: 1.0.6
     version: 1.0.6(nuxt@3.9.0)(vite@5.0.10)
   '@sidebase/nuxt-auth':
-    specifier: 0.6.3
-    version: 0.6.3(next-auth@4.21.1)(vue@3.4.5)
+    specifier: 0.6.4
+    version: 0.6.4(next-auth@4.21.1)(vue@3.4.5)
   '@unocss/eslint-config':
     specifier: ^0.58.3
     version: 0.58.3(eslint@8.56.0)(typescript@5.3.3)
@@ -2564,8 +2564,8 @@ packages:
     dev: true
     optional: true
 
-  /@sidebase/nuxt-auth@0.6.3(next-auth@4.21.1)(vue@3.4.5):
-    resolution: {integrity: sha512-wAbqXZOQoMpe1OgOyREMaNy++2D9Mc+U1PwP5GscfmCEiea04PTV3qEjo1T/2pSCra2wIeOxwqkaXXhspXOUsA==}
+  /@sidebase/nuxt-auth@0.6.4(next-auth@4.21.1)(vue@3.4.5):
+    resolution: {integrity: sha512-sj4eJKUQHA7kraM3fw4uLXGr50Itb5sRS+ZyW91DA95oDxOAgeCXrKfqxiyciIB/kJ4j2ryOJqPdKxNI3j4BIg==}
     peerDependencies:
       next-auth: ^4.21.1
     dependencies:

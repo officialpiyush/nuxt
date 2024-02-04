@@ -49,6 +49,11 @@ export default defineNuxtConfig({
         name: 'consola',
         from: 'consola',
       },
+      {
+        name: 'faker',
+        as: 'dataPort',
+        from: '@faker-js/faker',
+      },
     ],
   },
   auth: {

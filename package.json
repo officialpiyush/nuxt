@@ -21,7 +21,7 @@
     "dayjs": "^1.11.10",
     "md-editor-v3": "^4.13.2",
     "nanoid": "^5.0.7",
-    "next-auth": "4.22.5",
+    "next-auth": "4.24.5",
     "notivue": "^2.4.4",
     "std-env": "^3.7.0",
     "trpc-nuxt": "^0.10.21",

@@ -34,7 +34,7 @@ importers:
         version: 1.11.10
       md-editor-v3:
         specifier: ^4.13.2
-        version: 4.13.2(@codemirror/view@6.26.3)(@lezer/common@1.2.1)(vue@3.4.23(typescript@4.9.5))
+        version: 4.13.3(@codemirror/view@6.26.3)(@lezer/common@1.2.1)(vue@3.4.23(typescript@4.9.5))
       nanoid:
         specifier: ^5.0.7
         version: 5.0.7
@@ -1490,8 +1490,8 @@ packages:
   '@types/linkify-it@3.0.5':
     resolution: {integrity: sha512-yg6E+u0/+Zjva+buc3EIb+29XEg4wltq7cSmd4Uc2EE/1nUVmxyzpX6gUXD0V8jIrG0r7YeOGVIbYRkxeooCtw==}
 
-  '@types/markdown-it@13.0.7':
-    resolution: {integrity: sha512-U/CBi2YUUcTHBt5tjO2r5QV/x0Po6nsYwQU4Y04fBS6vfoImaiZ6f8bi3CjTCxBPQSO1LMyUqkByzi8AidyxfA==}
+  '@types/markdown-it@14.0.1':
+    resolution: {integrity: sha512-6WfOG3jXR78DW8L5cTYCVVGAsIFZskRHCDo5tbqa+qtKVt4oDRVH7hyIWu1SpDQJlmIoEivNQZ5h+AGAOrgOtQ==}
 
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
@@ -2278,6 +2278,9 @@ packages:
 
   caniuse-lite@1.0.30001611:
     resolution: {integrity: sha512-19NuN1/3PjA3QI8Eki55N8my4LzfkMCRLgCVfrl/slbSAchQfV0+GwjPrK3rq37As4UCLlM/DHajbKkAqbv92Q==}
+
+  caniuse-lite@1.0.30001612:
+    resolution: {integrity: sha512-lFgnZ07UhaCcsSZgWW0K5j4e69dK1u/ltrL9lTUiFOwNHs12S3UMIEYgBV0Z6C6hRDev7iRnMzzYmKabYdXF9g==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -4027,8 +4030,8 @@ packages:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
     hasBin: true
 
-  md-editor-v3@4.13.2:
-    resolution: {integrity: sha512-4y3gNqLaH9TviGW25u1VnFfS/Q4vZpE0uyYIkWAIrT8xznNOO/fhKMJ24X9tqbzEhjjIPijKx/QOgB68+aAvBw==}
+  md-editor-v3@4.13.3:
+    resolution: {integrity: sha512-SERoUuDUhE+7kV+ApaJn4ZvbGbOhQsbnip1IN9HmIBXIt7T71pH4O4M1dvXxTHH4Fc7BruA1XxBbrSNvlLeWaA==}
     peerDependencies:
       vue: ^3.2.47
 
@@ -7979,7 +7982,7 @@ snapshots:
 
   '@types/linkify-it@3.0.5': {}
 
-  '@types/markdown-it@13.0.7':
+  '@types/markdown-it@14.0.1':
     dependencies:
       '@types/linkify-it': 3.0.5
       '@types/mdurl': 1.0.5
@@ -9163,6 +9166,8 @@ snapshots:
   caniuse-lite@1.0.30001572: {}
 
   caniuse-lite@1.0.30001611: {}
+
+  caniuse-lite@1.0.30001612: {}
 
   chalk@2.4.2:
     dependencies:
@@ -10954,11 +10959,11 @@ snapshots:
       punycode.js: 2.3.1
       uc.micro: 2.1.0
 
-  md-editor-v3@4.13.2(@codemirror/view@6.26.3)(@lezer/common@1.2.1)(vue@3.4.23(typescript@4.9.5)):
+  md-editor-v3@4.13.3(@codemirror/view@6.26.3)(@lezer/common@1.2.1)(vue@3.4.23(typescript@4.9.5)):
     dependencies:
       '@codemirror/lang-markdown': 6.2.5
       '@codemirror/language-data': 6.5.1(@codemirror/view@6.26.3)
-      '@types/markdown-it': 13.0.7
+      '@types/markdown-it': 14.0.1
       '@vavt/util': 1.5.1
       codemirror: 6.0.1(@lezer/common@1.2.1)
       copy-to-clipboard: 3.3.3
@@ -11176,7 +11181,7 @@ snapshots:
       '@next/env': 14.2.2
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001611
+      caniuse-lite: 1.0.30001612
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0

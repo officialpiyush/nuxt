@@ -31,7 +31,7 @@
     "@antfu/eslint-config": "3.12.1",
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
-    "@eslint/config-inspector": "^0.6.0",
+    "@eslint/config-inspector": "^0.7.0",
     "@nuxt/devtools": "1.7.0",
     "@sidebase/nuxt-auth": "0.10.0",
     "@unocss/eslint-config": "^0.65.3",
